@@ -1,9 +1,28 @@
 #bear:hover #right-ear {
   transform: translateY(-10px);
   transition: all .5s linear;
+  transform-origin: center center:
 }
 
-@keyframes eyes {
+#bear:hover #left-ear {
+  transform: translateY(-10px);
+  transition: all .5s linear;
+  transform-origin: center center:
+}
+
+#bear:hover #right-eye {
+  transform: translateX(-10px);
+  transition: all .5s linear;
+  transform-origin: center center:
+}
+
+#bear:hover #left-eye {
+  transform: translateX(-10px);
+  transition: all .5s linear;
+  transform-origin: center center:
+}
+
+@keyframes #left-eye {
 
 0% {
 transform: translateX(10px);
