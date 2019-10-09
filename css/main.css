@@ -11,14 +11,14 @@
 }
 
 #bear:hover #right-eye {
-  animation: dance 1s 2s linear;
+  animation: wiggle 3s linear;
 }
 
 #bear:hover #left-eye {
-  animation: dance 1s 2s linear;
+  animation: wiggle 3s linear;
 }
 
-@keyframes dance {
+@keyframes wiggle {
 
   0% {
     transform: translateX(-20px);
