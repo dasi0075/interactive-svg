@@ -15,17 +15,17 @@
 }
 
 #bear:hover #left-eye wiggle {
-  animation: wiggle 1s 2s linear;
+  animation: wiggle 1s 2s infinite;
 }
 
 @keyframes wiggle {
 
   start {
-    transform: translateX(-2em);
+    transform: translateX(10px);
   }
 
   end {
-    transform: translateX(-4em);
+    transform: translateX(-10px);
   }
 
 }
