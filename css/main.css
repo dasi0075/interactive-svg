@@ -1,0 +1,15 @@
+#bear:hover #right-ear {
+  transform: translateY(-10px);
+  transition: all .5s linear;
+}
+
+@keyframes eyes {
+
+0% {
+transform: translateX(10px);
+}
+
+100% {
+transform: translateX(-10px);
+}
+}
