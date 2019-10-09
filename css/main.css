@@ -7,7 +7,7 @@
 #bear:hover #left-ear {
   transform: translateY(-10px);
   transition: all .5s linear;
-  transform-origin: center center:
+  transform-origin: center center;
 }
 
 #bear:hover #right-eye wiggle {
@@ -20,11 +20,11 @@
 
 @keyframes wiggle {
 
-  start {
+  0% {
     transform: translateX(10px);
   }
 
-  end {
+  100% {
     transform: translateX(-10px);
   }
 
