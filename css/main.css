@@ -12,14 +12,14 @@
 
 #bear:hover #right-eye {
   transform: translateX(-10px);
+  transform: translateX(10px);
   transition: all .5s linear;
-  transform-origin: center center:
 }
 
 #bear:hover #left-eye {
   transform: translateX(-10px);
+  transform: translateX(10px);
   transition: all .5s linear;
-  transform-origin: center center:
 }
 
 @keyframes #left-eye {
