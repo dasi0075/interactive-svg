@@ -15,17 +15,29 @@
 }
 
 #bear:hover #left-eye {
-  animation: dance 1s 2s infinite;
+  animation: dance 1s 2s linear;
 }
 
 @keyframes dance {
 
   0% {
-    transform: translateX(10px);
+    transform: translateX(-20px);
+  }
+
+  20% {
+    transform: translateX(20px);
+  }
+
+  40% {
+    transform: translateX(-20px);
+  }
+
+  60% {
+    transform: translateX(20px);
   }
 
   100% {
-    transform: translateX(-10px);
+    transform: translateX(-20px);
   }
 
 }
