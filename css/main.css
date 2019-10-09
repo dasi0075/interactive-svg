@@ -10,11 +10,11 @@
   transform-origin: center center;
 }
 
-#bear:hover #right-eye wiggle {
+#bear:hover #right-eye {
   animation: dance 1s 2s linear;
 }
 
-#bear:hover #left-eye wiggle {
+#bear:hover #left-eye {
   animation: dance 1s 2s infinite;
 }
 
