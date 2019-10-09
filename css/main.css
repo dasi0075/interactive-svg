@@ -1,7 +1,7 @@
 #bear:hover #right-ear {
   transform: translateY(-10px);
   transition: all .5s linear;
-  transform-origin: center center:
+  transform-origin: center center;
 }
 
 #bear:hover #left-ear {
@@ -10,25 +10,22 @@
   transform-origin: center center:
 }
 
-#bear:hover #right-eye {
-  transform: translateX(-10px);
-  transform: translateX(10px);
-  transition: all .5s linear;
+#bear:hover #right-eye wiggle {
+  animation: wiggle 1s 2s linear;
 }
 
-#bear:hover #left-eye {
-  transform: translateX(-10px);
-  transform: translateX(10px);
-  transition: all .5s linear;
+#bear:hover #left-eye wiggle {
+  animation: wiggle 1s 2s linear;
 }
 
-@keyframes #left-eye {
+@keyframes wiggle {
 
-0% {
-transform: translateX(10px);
-}
+  start {
+    transform: translateX(-2em);
+  }
 
-100% {
-transform: translateX(-10px);
-}
+  end {
+    transform: translateX(-4em);
+  }
+
 }
