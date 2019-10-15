@@ -11,11 +11,11 @@
 }
 
 #bear:hover #right-eye {
-  animation: right-eye 2s linear;
+  animation: right-eye 4s linear;
 }
 
 #bear:hover #left-eye {
-  animation: left-eye 2s linear;
+  animation: left-eye 4s linear;
 }
 
 @keyframes right-eye {
