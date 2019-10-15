@@ -11,38 +11,14 @@
 }
 
 #bear:hover #right-eye {
-  animation: right-eye 4s linear;
+  animation: wiggle 4s linear;
 }
 
 #bear:hover #left-eye {
-  animation: left-eye 4s linear;
+  animation: wiggle 4s linear;
 }
 
-@keyframes right-eye {
-
-  0% {
-    transform: translateX(-10px);
-  }
-
-  20% {
-    transform: translateX(10px);
-  }
-
-  40% {
-    transform: translateX(-10px);
-  }
-
-  60% {
-    transform: translateX(10px);
-  }
-
-  100% {
-    transform: translateX(-10px);
-  }
-
-}
-
-@keyframes left-eye {
+@keyframes wiggle {
 
   0% {
     transform: translateX(-10px);
