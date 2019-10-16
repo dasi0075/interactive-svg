@@ -10,10 +10,7 @@
   transform-origin: center center;
 }
 
-#bear:hover #right-eye {
-  animation: wiggle 4s linear;
-}
-
+#bear:hover #right-eye,
 #bear:hover #left-eye {
   animation: wiggle 4s linear;
 }
@@ -24,15 +21,15 @@
     transform: translateX(-10px);
   }
 
-  20% {
+  25% {
     transform: translateX(10px);
   }
 
-  40% {
+  50% {
     transform: translateX(-10px);
   }
 
-  60% {
+  75% {
     transform: translateX(10px);
   }
 
